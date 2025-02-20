@@ -12,9 +12,10 @@ channels:
 dependencies:
 
   # basic
-  - python=3.7.10
+  # - python=3.7.10
+  - python=3.9
   - numpy=1.21.1
-  - mkl=2021.3.0
+  # - mkl=2021.3.0
   - ipython=7.26.0
   - jupyter=1.0.0
   - scipy=1.7.1
@@ -28,6 +29,7 @@ dependencies:
   - torchvision=0.10.0 # CV 
 
   - pip:
-    - gym==0.18.0 # RL
+    # - gym==0.18.0 # RL
+    - gym==0.26.2
     - tensorboardx==2.2 # TSP
     - fastprogress==1.0.0 # TSP
